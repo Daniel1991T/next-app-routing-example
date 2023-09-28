@@ -1,0 +1,21 @@
+.ul {
+  margin-top: 2rem;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2;
+  width: 100%;
+}
+
+.ul li {
+  margin-top: 2px;
+  padding: 1rem;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  border: 1px solid #2c2c2c;
+  text-align: center;
+  cursor: pointer;
+}
